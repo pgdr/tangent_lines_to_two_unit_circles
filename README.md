@@ -1,10 +1,10 @@
 # Inner tangent line for two unit circle placed with centers at y = 0 and one in origo
 
 This script computes the tangent point (and corresponding angle) for two
-identical circles: one centered at $(0,0)$ and one centered at $(d,0)$.
+unit circles: one centered at $(0,0)$ and one centered at $(d,0)$.
 
 One can find the tangent line by imagining a rectangle placed with
-bottom left at $(0,0)$ (origo) and height $1$, with unknown length.
+bottom left at $(0,0)$ (origo) and height 2, with unknown length.
 
 
 ![](assets/rect.png)
