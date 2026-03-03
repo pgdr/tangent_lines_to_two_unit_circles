@@ -10,7 +10,7 @@ bottom left at $(0,0)$ (origo) and height 2, with unknown length.
 ![](assets/rect.png)
 
 
-Then rotate the rectangle until the top-right corner hits $(d,0)$.
+Then rotate the rectangle around origo until the top side hits $(d,0)$.
 
 This results in a triangle with hypothenus $d$, one leg has side $2$,
 which gives (soh-**cah**-toa) $\cos(\theta) = 2/d$ and thus
