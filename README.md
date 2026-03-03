@@ -1,6 +1,6 @@
 # Inner tangent line for two unit circle placed with centers at y = 0 and one in origo
 
-This script computes the tangent point (and corresponding angle) for two
+This script computes the tangent point (and corresponding angle) for the inner tangent line of two
 unit circles: one centered at $(0,0)$ and one centered at $(d,0)$.
 
 One can find the tangent line by imagining a rectangle placed with
