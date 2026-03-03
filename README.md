@@ -20,7 +20,7 @@ $$\theta = \arccos(2/d).$$
 ![](assets/rect2.png)
 
 Then, given $\theta$, we can find the tangent point on the first
-(left-most) unit circle as simply the line with length 1 and given
+(left-most) unit circle as simply the unit vector with given
 angle. Here we piggy-back on the complex class in Python to find the
 coordinates (real=x, imag=y), using `cmath.rect(r, theta)`.
 
