@@ -68,3 +68,8 @@ print(f"tangent at {(c.real),(c.imag)}")
 print(f"θ = {math.degrees(theta)}°")
 print(f"Δ = ((0,0), {(c.real),(c.imag)}, {(d/2), 0})")
 ```
+
+
+## Animation
+
+![](assets/circles.gif)
