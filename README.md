@@ -6,6 +6,10 @@ unit circles: one centered at $(0,0)$ and one centered at $(d,0)$.
 One can find the tangent line by imagining a rectangle placed with
 bottom left at $(0,0)$ (origo) and height 2, with unknown length.
 
+## Tangent line
+
+![](assets/tangent.mp4)
+
 
 ![](assets/rect.png)
 
