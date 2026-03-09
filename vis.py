@@ -1,9 +1,6 @@
 from manim import *
 import numpy as np
 
-
-# config.pixel_width = 1080
-# config.pixel_height = 1080
 config.frame_width = 12
 config.frame_height = 8
 
