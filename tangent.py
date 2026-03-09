@@ -1,6 +1,5 @@
 import sys
 import math
-import cmath
 
 
 def R(v, digits=3):
@@ -12,13 +11,14 @@ def tangent_angle(d):
     return theta
 
 
-if len(sys.argv) != 2:
-    exit("usage: tangent.py d")
-
-d = float(sys.argv[1])
-theta = tangent_angle(d)
-c = cmath.rect(1, theta)
-
-print(f"tangent at {(R(c.real), R(c.imag))}")
-print(f"θ = {R(math.degrees(theta))}°")
-print(f"Δ = ((0, 0), {(R(c.real), R(c.imag))}, {(R(d/2), 0)})")
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        exit("usage: tangent.py d")
+    d = float(sys.argv[1])
+    theta = tangent_angle(d)
+    print(f"θ = {R(theta)} = {R(math.degrees(theta))}°")
+    print(f"cos θ = 2/d = 2/{d} = {R(2/d)}")
+    print(
+        f"sin θ = √(d^2 - 4)/d = √({d}^2 - 4)/{d} = √({R(d**2) - 4})/{d} = {R(math.sqrt(d**2 - 4)/d)}"
+    )
+    print(f"p = (cos θ, sin θ) = {R(2/d), R(math.sqrt(d**2 - 4)/d)}")
