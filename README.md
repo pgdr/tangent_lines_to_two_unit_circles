@@ -8,7 +8,7 @@ bottom left at $(0,0)$ (origo) and height 2, with unknown length.
 
 ## Tangent line
 
-[![](assets/tangent.gif)](assets/tangent.mp4)
+[![](assets/tangent.gif)](https://github.com/pgdr/tangent_lines_to_two_unit_circles/raw/refs/heads/master/assets/tangent.mp4)
 
 
 ![](assets/rect.png)
