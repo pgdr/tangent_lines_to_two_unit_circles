@@ -8,7 +8,7 @@ bottom left at $(0,0)$ (origo) and height 2, with unknown length.
 
 ## Tangent line
 
-![](assets/tangent.mp4)
+[![](assets/tangent.gif)](assets/tangent.mp4)
 
 
 ![](assets/rect.png)
